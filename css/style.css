@@ -8,6 +8,7 @@
 }
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
 
 }
 img {
@@ -17,36 +18,39 @@ img {
   padding:40px 0px 40px 0px;
 }
 h4 {
-  text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  padding-top: 40px;
 }
+
 #bigBox {
+  position: relative;
   border: 6px solid #00b3b4;
-  padding: 25% 10% 25% 10%;
   display: inline-block;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  padding: 25% 10% 25% 10%;
 }
 #leftGreyBox {
   background-color: #9b9b9b;
   width: 35%;
   border: 3px solid #9b9b9b;
-  float: left;
-  margin-right: 10px;
+  /*float: left;*/
   padding:20px;
-  margin-right: 20px;
 }
 #gutter {
   width:5%;
-  float: left;
+  /*float: left;*/
 }
 #purpleLineBox {
+  position: absolute;
+  top: 29%;
+  left: 40%;
+  width: 50%;
+  height: 40.5%;
   border: 3px solid #bb6dff;
-  float: left;
-  width: 60%;
+  /*float: left;*/
   color: #bb6dff;
   text-align: center;
+  overflow: hidden;
 }
 
 #purpleLineHead {
@@ -58,9 +62,9 @@ h4 {
   color: #bb6dff;
 }
 #abc {
-  text-align: center;
-  padding-left: 85px;
+  padding-left: 90px;
 }
+
 #numbers {
   float: right;
   color: #bb6dff;
@@ -69,7 +73,7 @@ h4 {
 #purpleText {
   font-size: 22px;
   color: #777;
-  padding: 100px 100px 100px 100px;
+  padding: 25% 25% 25% 25%;
 }
 #blueBox {
   color: #bb6dff;
