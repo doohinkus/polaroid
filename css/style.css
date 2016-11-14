@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0px;
+}
+body {
+  font-family: Arial, sans-serif;
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:40px 0px 40px 0px;
+}
+h4 {
+  text-align: center;
+  font-size: 20px;
+}
+#bigBox {
+  border: 6px solid #00b3b4;
+  padding: 25% 10% 25% 10%;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+#leftGreyBox {
+  background-color: #9b9b9b;
+  width: 35%;
+  border: 3px solid #9b9b9b;
+  float: left;
+  margin-right: 10px;
+  padding:20px;
+  margin-right: 20px;
+}
+#gutter {
+  width:5%;
+  float: left;
+}
+#purpleLineBox {
+  border: 3px solid #bb6dff;
+  float: left;
+  width: 60%;
+  color: #bb6dff;
+  text-align: center;
+}
+
+#purpleLineHead {
+  border: 3px solid #bb6dff;
+  margin-left: -3px;
+  margin-top: -3px;
+  margin-right: -3px;
+  padding: 5px 5px 5px 5px;
+  color: #bb6dff;
+}
+#abc {
+  text-align: center;
+  padding-left: 85px;
+}
+#numbers {
+  float: right;
+  color: #bb6dff;
+  letter-spacing: 1em;
+}
+#purpleText {
+  font-size: 22px;
+  color: #777;
+  padding: 100px 100px 100px 100px;
+}
+#blueBox {
+  color: #bb6dff;
+  background-color: #a8c2e1;
+  border: 3px solid #4a90e2;
+  padding: 20px;
+}
+#subLemon {
+  color: #bb6dff;
+  background-color: #fff;
+  border: 3px solid #666;
+  padding: 20px;
+}
